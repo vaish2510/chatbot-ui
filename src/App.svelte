@@ -22,9 +22,7 @@
         {
           method: 'POST',
           headers: {
-			'Content-Type': 'application/json',
-			'authtoken': 'bltdfccda52aa5387d1',
-			'organization_uid': 'blt87b0a3aff3fc7a51',
+			'Content-Type': 'application/json'
 		  },
           body: JSON.stringify({
             messages: [...messages, newMessage],
